@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'minitest_colors/version'
+require 'minitest-colors/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "minitest_colors"
+  spec.name          = "minitest-colors"
   spec.version       = MinitestColors::VERSION
   spec.authors       = ["Bruno Grasselli"]
   spec.email         = ["bruno.grasselli@gmail.com"]
 
   spec.summary       = "Minitest plugin that prints colorful progress report"
   spec.description   = "Minitest plugin that prints colorful progress report. Less colorful than minetest/pride."
-  spec.homepage      = "https://github.com/BrunoGrasselli/minitest_colors"
+  spec.homepage      = "https://github.com/brunograsselli/minitest-colors"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -1,4 +1,4 @@
-require "minitest_colors/version"
+require "minitest-colors/version"
 require "minitest"
 
 module MinitestColors

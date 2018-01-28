@@ -1,4 +1,4 @@
-# minitest_colors
+# minitest-colors
 
 Minitest plugin that prints colorful progress report. Less colorfull than minitest/pride (only green and red mostly).
 
@@ -7,7 +7,7 @@ Minitest plugin that prints colorful progress report. Less colorfull than minite
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'minitest_colors'
+gem 'minitest-colors'
 ```
 
 And then execute:
@@ -16,15 +16,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install minitest_colors
+    $ gem install minitest-colors
 
 ## Usage
 
-```require 'minitest_colors'```
+```require 'minitest-colors'```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/BrunoGrasselli/minitest_colors.
+Bug reports and pull requests are welcome on GitHub at https://github.com/BrunoGrasselli/minitest-colors.
 
 ## License
 
